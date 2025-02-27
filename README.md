@@ -14,5 +14,4 @@ Este projeto é uma aplicação web que exibe informações meteorológicas atua
 - **React:** Biblioteca JavaScript para construção de interfaces de usuário.
 - **Vite:** Ferramenta de build para desenvolvimento frontend com alta performance.
 - **Tailwind CSS:** Framework CSS utilitário que agiliza a criação de layouts responsivos e modernos.
-- **OpenWeatherMap API:** Serviço que fornece dados meteorológicos em tempo real e previsões.
-- 
+- **OpenWeatherMap API:** Serviço que fornece dados meteorológicos em tempo real e previsões. 
