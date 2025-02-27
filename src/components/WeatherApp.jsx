@@ -23,6 +23,7 @@ function WeatherApp() {
                if (!currentResponse.ok) 
                     throw new Error('Erro ao buscar dados do clima atual.');
                const currentData = await currentResponse.json();
+               
                setCurrentWeather(currentData);
 
                // Chamada para a previsão (5 Day/3 Hour Forecast)
