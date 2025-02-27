@@ -31,7 +31,8 @@ function WeatherApp() {
 
                if (!forecastResponse.ok) 
                     throw new Error('Erro ao buscar dados da previsão.');
-               const forecastData = await forecastResponse.json();               
+               const forecastData = await forecastResponse.json();   
+                           
                setForecastData(forecastData);
           } catch (error) {
                setError(error.message);
