@@ -136,7 +136,7 @@ function WeatherApp() {
                                         ({ date, maxTemp, minTemp, representative }) => (
                                              <div
                                                   key={date}
-                                                  className="p-4 border border-gray-200 rounded shadow"
+                                                  className="p-4 bg-sky-300 border-none rounded shadow-2xl"
                                              >
                                                   <p>{new Date(date).toLocaleDateString()}</p>
 
