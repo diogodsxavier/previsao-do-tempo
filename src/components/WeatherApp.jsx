@@ -9,6 +9,7 @@ function WeatherApp() {
      const [error, setError] = useState(null);
 
      const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
+     console.log(import.meta.env.VITE_OPENWEATHER_API_KEY);
 
      // Função para buscar dados do clima e da previsão
      const fetchWeather = useCallback(async () => {
