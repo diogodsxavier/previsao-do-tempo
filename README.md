@@ -1,6 +1,7 @@
 # Weather Forecast App
 
 Este projeto é uma aplicação web que exibe informações meteorológicas atuais e a previsão dos próximos dias para uma cidade informada pelo usuário. A aplicação utiliza a API do [OpenWeatherMap](https://openweathermap.org/) para obter os dados do clima, e foi construída utilizando React, Vite e Tailwind CSS.
+
 link: http://previsao-do-tempo-self.vercel.app/
 
 ## Funcionalidades
